@@ -1,0 +1,23 @@
+/* colors: #333138; - main
+business-card - #FFFFFA
+*/
+*  {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333138;
+}
+
+.business-card  {
+    width: 624px;
+    height: 320px;
+    background-color: #FFFFFA;
+    border-radius: 16px;
+}

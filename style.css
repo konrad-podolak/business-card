@@ -6,9 +6,12 @@ business-card - #FFFFFA
     margin: 0;
     box-sizing: border-box;
 }
-
+body  {
+    font-family: Arial, Helvetica, sans-serif;
+}
 main  {
     display: flex;
+    justify-content: space-around;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -16,8 +19,45 @@ main  {
 }
 
 .business-card  {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     width: 624px;
     height: 320px;
     background-color: #FFFFFA;
     border-radius: 16px;
+    padding: 32px;
+}
+
+.business-card__img  {
+border-radius: 50%;
+border: 1px black solid;
+margin-right: 32px;
+}
+
+.description-heading  {
+    margin-bottom: 24px;
+}
+
+.description-heading__title  {
+    font-size: 32px;
+}
+
+.description-heading__post  {
+    font-size: 18px;
+    font-style: italic;
+    color: #545454;
+}
+
+.link-box  {
+    margin-top: 32px;
+}
+
+.link-box__social  {
+    display: inline-block;
+}
+
+a  {
+    color: #E20613;
+    text-decoration: none;
 }
